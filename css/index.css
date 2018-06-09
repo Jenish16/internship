@@ -14,3 +14,15 @@
     display: block;
 }
 h2{margin: 0px !important;}
+.head1{
+    margin-bottom: 0px !important;
+}
+#img1{
+    height: 126px;
+}
+.dropdown{
+    padding: 0px !important;
+}
+.dropdown-item{
+    padding: 0px !important;
+}
