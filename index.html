@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/index.css" rel="stylesheet" media="screen">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link href="css/materialize.css" rel="stylesheet" media="screen">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</head>
-<body>
-<div class="container-fluid bg-secondary">
-    <img src="images/amc-logo.jpg" id="img1" class="rounded float-left img-fluid" alt="Responsive image" height="150px">
-    <div class="row head1">
+    <link href="css/bootstrap-4-navbar.css" rel="stylesheet">
 
-        <h2 class="text-light col-lg-12">Amdavad</h2>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+--></head>
+<body>
+<div class="container-fluid bg-secondary" id="head1">
+    <img src="images/amc-logo.jpg" id="img1" class="rounded float-left img-fluid" alt="Responsive image">
+    <div class="row" >
+
+        <h1 class="text-light col-lg-12" style="margin-top: 20px">Amdavad</h1>
 
     </div>
-    <div class="row head1">
-        <h4 class="text-light col-lg-11">Municipal Corporation </h4>
-        <button type="button" class="btn btn-dark col-lg-1">Login</button>
+    <div class="row">
+        <h3 class="text-light col-lg-11" style="margin-bottom: 50px">Municipal Corporation </h3>
+        <button type="button" class="btn btn-dark col-lg-1" style="margin-bottom: 50px">Login</button>
     </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -136,10 +138,64 @@
 
     </div>
 </nav>
-
+<div class="container-fluid">
+    <div class="row">
+        <div id="slider" class="col-md-9 col-sm-12 col-lg-9">
+            <figure>
+                <img src="images/ahmedabad-bg.jpg" alt class="img-responsive">
+                <img src="images/amd2.jpg" alt class="img-responsive">
+                <img src="images/amd3.jpg" alt class="img-responsive">
+                <img src="images/amd2.jpg" alt class="img-responsive">
+                <img src="images/amd3.jpg" alt class="img-responsive">
+            </figure>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="card" style="width: 50%" >
+                        <img class="card-img-top" src="images/muniicom.jpg" alt="Card image cap" height="220px">
+                        <div class="card-body">
+                            <p class="card-text"><b>Shri Mukesh Kumar</b><br>Municipal Commissioner</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 50%"  >
+                        <img class="card-img-top" src="images/mayor.png" alt="Card image cap" height="220px">
+                        <div class="card-body">
+                            <p class="card-text"><b>Shri Gautam Shah</b><br>Mayor</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="card col-md-3 col-sm-6 col-xs-12">
+            <div class="card-body" style="margin: 5px">
+                <h5 class="card-title">Important Public Information</h5>
+                <p class="card-text"><a href="#">Resurface Work Done upto date 1-10-2017</a></p>
+                <p class="card-text"><a href="#">Road Resurface Work from 02-10-2017 to 15-11-2017</a></p>
+            </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-xs-12">
+            <div class="card-body" style="margin: 5px">
+                <h5 class="card-title">Quick Pay/Links</h5>
+                <p class="card-text"><a href="#">Resurface Work Done upto date 1-10-2017</a></p>
+                <p class="card-text"><a href="#">Road Resurface Work from 02-10-2017 to 15-11-2017</a></p>
+            </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-xs-12">
+            <div class="card-body" style="margin: 5px">
+                <h5 class="card-title">Online Servies</h5>
+                <p class="card-text"><a href="#">Resurface Work Done upto date 1-10-2017</a></p>
+                <p class="card-text"><a href="#">Road Resurface Work from 02-10-2017 to 15-11-2017</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="js/bootstrap-4-navbar.js"></script>
 </body>
 </html>
