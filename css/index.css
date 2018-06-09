@@ -16,6 +16,15 @@
 #img1{
     height: 150px;
 }
+.p1{
+    font-size: 2em;
+}
+@media only screen and (max-width: 600px) {
+    .p1 {
+       font-size: 1em;
+    }
+}
+
 
 @keyframes slidy {
     0% { left: 0%; }
