@@ -4,48 +4,66 @@
 .dd2:hover>.ddm2 {
     display: block;
 }
-.dd1:hover>.ddm1 {
+.dd3:hover>.ddm3 {
     display: block;
 }
-.dd1:hover>.ddm1 {
+.dd4:hover>.ddm4 {
     display: block;
 }
-.dd1:hover>.ddm1 {
+.dd5:hover>.ddm5 {
     display: block;
 }
-#img1{
-    height: 150px;
+.dd6:hover>.ddm6 {
+    display: block;
 }
+.dd7:hover>.ddm7 {
+    display: block;
+}
+.dd8:hover>.ddm8 {
+    display: block;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 40px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
 .p1{
-    font-size: 2em;
+    font-size: 3em;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .p1 {
-       font-size: 1em;
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 400px) {
+    .p1 {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 480px) {
+    .slider1 {
+        height: 180px !important;
     }
 }
 
-
-@keyframes slidy {
-    0% { left: 0%; }
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
-}
-
-div#slider { overflow: hidden;}
-div#slider figure img { width: 20%; float: left; height:410px; }
-div#slider figure {
-    position: relative;
-    width: 500%;
-
-    left: 0;
-    text-align: left;
-    font-size: 0;
-    animation: 10s slidy infinite;
-}
