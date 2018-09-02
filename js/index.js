@@ -1,15 +1,12 @@
-$(function(){
-    var shrinkHeader = 300;
-    $(window).scroll(function() {
-        var scroll = getCurrentScroll();
-        if ( scroll >= shrinkHeader ) {
-            $('.header').addClass('shrink');
-        }
-        else {
-            $('.header').removeClass('shrink');
-        }
-    });
-    function getCurrentScroll() {
-        return window.pageYOffset || document.documentElement.scrollTop;
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
     }
-});
+}
